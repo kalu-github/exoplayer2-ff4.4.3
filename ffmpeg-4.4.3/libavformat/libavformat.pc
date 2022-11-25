@@ -1,0 +1,14 @@
+prefix=/home/kalu/Downloads/ffmpegcmd_android_build/build/ffmpeg/android/arm64-v8a
+exec_prefix=${prefix}
+libdir=/home/kalu/Downloads/ffmpegcmd_android_build/build/ffmpeg/android/arm64-v8a/lib
+includedir=/home/kalu/Downloads/ffmpegcmd_android_build/build/ffmpeg/android/arm64-v8a/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 58.76.100
+Requires: libavcodec >= 58.134.100, libavutil >= 56.70.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavformat -lm -latomic -lz
+Libs.private: 
+Cflags: -I${includedir}
