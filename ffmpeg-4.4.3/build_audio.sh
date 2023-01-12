@@ -61,10 +61,10 @@ export COMMON_SET="--enable-static \
 ./build_android_arm64_v8a.sh
 
 # Build x86
-# ./build_android_x86.sh
+./build_android_x86.sh
 
 # Build x86_64
-# ./build_android_x86_64.sh
+./build_android_x86_64.sh
 
 # Build mips
 # ./build_android_mips.sh

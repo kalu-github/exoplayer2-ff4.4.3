@@ -10,5 +10,5 @@ root_dir=`pwd`
 
 cd $root_dir/ffmpeg-4.4.3
 #./configure
-chmod +x ./build_all.sh
-./build_all.sh
+chmod +x ./build_video.sh
+./build_video.sh
